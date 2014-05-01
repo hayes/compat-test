@@ -16,6 +16,6 @@ in your directory 'comat-test'
 `--registry` defualts to the public npm registry
 
 # Limitations
-* Must be able to run tests with `require('module_dir/test')
+* Must be able to run tests with `require('module_dir/test')`
 * no dynamic requires
 * all tests must be in the test directory
