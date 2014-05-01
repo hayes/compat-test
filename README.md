@@ -6,8 +6,9 @@ run an existing test suite agains new code
 # Usage
 
 ### cli
-`npm install -g`
-`compat-test` in your directory
+`npm install -g compat-test`
+
+in your directory 'comat-test'
 
 ###### flags
 `--name` if different than the name in package.json
