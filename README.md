@@ -5,7 +5,7 @@ run an existing test suite agains new code
 
 # Usage
 
-### cli
+### cli:
 `npm install -g compat-test`
 
 in your directory 'comat-test'
