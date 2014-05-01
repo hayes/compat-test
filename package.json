@@ -1,19 +1,31 @@
 {
-  "name": "semver-test",
+  "name": "compat-test",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {"compat-test": "bin/compat-test"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hayes/semver-test"
+    "url": "https://github.com/hayes/compat-test"
   },
   "author": "",
   "license": " ",
   "bugs": {
-    "url": "https://github.com/hayes/semver-test/issues"
+    "url": "https://github.com/hayes/compat-test/issues"
   },
-  "homepage": "https://github.com/hayes/semver-test"
+  "homepage": "https://github.com/hayes/compat-test",
+  "dependencies": {
+    "hyperquest": "^0.3.0",
+    "concat-stream": "^1.4.5",
+    "tar-fs": "^0.3.2",
+    "cssauron-falafel": "^1.2.1",
+    "falafel": "^0.3.1",
+    "through": "^2.3.4",
+    "ls-stream": "^1.0.0",
+    "minimist": "0.0.8",
+    "rimraf": "^2.2.6"
+  }
 }
